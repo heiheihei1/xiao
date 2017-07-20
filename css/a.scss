@@ -1,0 +1,36 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header{
+  img{
+    width: 100%;
+  }
+}
+.top{
+  background: black;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  div{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: -4px;
+    ul{
+      float: left;
+      li{
+        float: left;
+        text-align: center;
+        margin-left: 15px;
+        //padding-right: 20px;
+        a{
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

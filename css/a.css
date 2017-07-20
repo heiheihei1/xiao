@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header img {
+  width: 100%; }
+
+.top {
+  background: black;
+  height: 30px;
+  line-height: 30px;
+  color: white; }
+  .top div {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: -4px; }
+    .top div ul {
+      float: left; }
+      .top div ul li {
+        float: left;
+        text-align: center;
+        margin-left: 5px; }
+        .top div ul li a {
+          text-decoration: none;
+          color: white; }
